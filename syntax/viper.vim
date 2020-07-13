@@ -47,7 +47,7 @@ syn keyword viperBuiltin acc
 syn keyword viperBuiltin result
 
 " Functions
-syn match viperFunction "[a-zA-Z_][a-zA-Z0-9_]*" display contained
+syn match viperFunction "[a-zA-Z_][a-zA-Z0-9_\$]*" display contained
 
 " Operators
 syn keyword viperOperator in
