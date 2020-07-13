@@ -1,4 +1,4 @@
-" Viper syntax file
+" Vim syntax file
 " Language:             Viper (https://www.pm.inf.ethz.ch/research/viper.html)
 " Author:               jakobbeckmann (https://github.com/jakobbeckmann)
 " URL:                  https://github.com/jakobbeckmann/vim-viper-lang
