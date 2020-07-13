@@ -1,6 +1,7 @@
 *vim-viper-lang.txt*  Support for Viper in Vim
 
 Author:  Jakob Beckmann <beckmann_jakob@hotmail.fr>
+Last change: 13-07-2020
 
 License: MIT license
 
@@ -11,8 +12,8 @@ License: MIT license
   copies of the Software, and to permit persons to whom the Software is
   furnished to do so, subject to the following conditions:
 
-  The above copyright notice and this permission notice shall be included in all
-  copies or substantial portions of the Software.
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -23,22 +24,22 @@ License: MIT license
   SOFTWARE.
 
 
-CONTENTS                                               *viper*  *vim-viper-lang*
+CONTENTS                                              *viper*  *vim-viper-lang*
 
-Introduction                                       |vim-viper-lang-introduction|
-Snippets                                           |vim-viper-lang-snippets|
-About                                              |vim-viper-lang-about|
+Introduction                                      |vim-viper-lang-introduction|
+Snippets                                          |vim-viper-lang-snippets|
+About                                             |vim-viper-lang-about|
 
-==============================================================================
-INTRODUCTION                  *viper-introduction* *vim-viper-lang-introduction*
+===============================================================================
+INTRODUCTION                 *viper-introduction* *vim-viper-lang-introduction*
 
 The vim-viper-lang plug-in provides:
   - basic support for editing Viper files (automatic filetype detection,
     identation, syntax highlighting)
   - snippets for faster editing
 
-==============================================================================
-SNIPPETS                              *viper-snippets* *vim-viper-lang-snippets*
+===============================================================================
+SNIPPETS                             *viper-snippets* *vim-viper-lang-snippets*
 
 This plugin provides the following snippets:
   - {acc}: access modifier
@@ -55,8 +56,8 @@ This plugin provides the following snippets:
   - {while}: while loop
   - {forall}: for all quantifier
 
-==============================================================================
-ABOUT                                       *viper-about*  *vim-viper-lang-about*
+===============================================================================
+ABOUT                                     *viper-about*  *vim-viper-lang-about*
 
 Grab the latest version or report a bug on GitHub:
 
