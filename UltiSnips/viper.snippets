@@ -1,0 +1,100 @@
+# A valid snippet should starts with:
+#
+#		snippet trigger_word [ "description" [ options ] ]
+#
+# and end with:
+#
+#		endsnippet
+#
+# Snippet options:
+#
+#		b - Beginning of line.
+#		i - In-word expansion.
+#		w - Word boundary.
+#		r - Regular expression
+#		e - Custom context snippet
+#		A - Snippet will be triggered automatically, when condition matches.
+#
+# Basic example:
+#
+#		snippet emitter "emitter properties" b
+#		private readonly ${1} = new Emitter<$2>()
+#		public readonly ${1/^_(.*)/$1/}: Event<$2> = this.$1.event
+#		endsnippet
+#
+# Online reference: https://github.com/SirVer/ultisnips/blob/master/doc/UltiSnips.txt
+
+snippet acc "Access modifier" wA
+acc($0)
+endsnippet
+
+snippet imp "Import declaration" b
+import <${1:file}>
+endsnippet
+
+snippet def "Macro definition" b
+define ${1:name} ${2:body}
+endsnippet
+
+snippet pred "Predicate definition" b
+predicate ${1:name}(${2:${3:arg}: ${4:Ref}}) {
+	$0
+}
+endsnippet
+
+snippet dom "Domain definition" b
+domain ${1:name} {
+	$0
+}
+endsnippet
+
+snippet ax "Axiom definition" b
+axiom ${1:name} {
+	$0
+}
+endsnippet
+
+snippet field "Field declaration" b
+field ${1:name}: ${2:Ref}
+endsnippet
+
+snippet fun "Function definition" b
+function ${1:name}(${2:${3:arg}: ${4:Ref}}): ${5:return-type}
+	${6:requires ${7:precondition}}
+	${8:ensures ${9:postcondition}}
+{
+	$0
+}
+endsnippet
+
+snippet met "Method definition" b
+method ${1:name}(${2:${3:arg}: ${4:Ref}}) ${5:returns ${6:(res: Ref)}}
+	${7:requires ${8:precondition}}
+	${9:ensures ${10:postcondition}}
+{
+	$0
+}
+endsnippet
+
+snippet if "If statement" b
+if (${1:condition}) {
+	$0
+}
+endsnippet
+
+snippet else "Else branch" bA
+} else {
+	$0
+endsnippet
+
+snippet while "While loop" b
+while (${1:condition})
+	${2:invariant ${3:condition}}
+{
+	$0
+}
+endsnippet
+
+snippet forall "Forall quantifier"
+forall ${1:var}: ${2:type} :: ${3:{ ${4:trigger} }} $0
+endsnippet

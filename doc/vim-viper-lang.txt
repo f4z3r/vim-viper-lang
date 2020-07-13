@@ -23,21 +23,40 @@ License: MIT license
   SOFTWARE.
 
 
-CONTENTS					*vim-viper-lang*
+CONTENTS                                               *viper*  *vim-viper-lang*
 
-Introduction	                    |vim-viper-lang-introduction|
-About                               |vim-viper-lang-about|
+Introduction                                       |vim-viper-lang-introduction|
+Snippets                                           |vim-viper-lang-snippets|
+About                                              |vim-viper-lang-about|
 
 ==============================================================================
-INTRODUCTION                                       *vim-viper-lang-introduction*
+INTRODUCTION                  *viper-introduction* *vim-viper-lang-introduction*
 
 The vim-viper-lang plug-in provides:
   - basic support for editing Viper files (automatic filetype detection,
     identation, syntax highlighting)
-
+  - snippets for faster editing
 
 ==============================================================================
-ABOUT                                                     *vim-viper-lang-about*
+SNIPPETS                              *viper-snippets* *vim-viper-lang-snippets*
+
+This plugin provides the following snippets:
+  - {acc}: access modifier
+  - {imp}: import declaration
+  - {def}: macro definition
+  - {pred}: predicate definition
+  - {dom}: domain definition
+  - {ax}: axiom definition
+  - {field}: field declaration
+  - {fun}: function definition
+  - {met}: method definition
+  - {if}: if statement
+  - {else}: else conditional branch
+  - {while}: while loop
+  - {forall}: for all quantifier
+
+==============================================================================
+ABOUT                                       *viper-about*  *vim-viper-lang-about*
 
 Grab the latest version or report a bug on GitHub:
 
