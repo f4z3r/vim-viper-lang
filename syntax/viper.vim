@@ -24,7 +24,6 @@ syn keyword viperStatement axiom nextgroup=viperFunction skipwhite
 
 " Keywords
 syn keyword viperKeyword var
-syn keyword viperKeyword write
 syn keyword viperKeyword forall
 syn keyword viperKeyword unfolding
 syn keyword viperKeyword returns
@@ -45,6 +44,10 @@ syn keyword viperTypes Int Bool Ref Rational Perm Seq Set Multiset
 " Builtins
 syn keyword viperBuiltin acc
 syn keyword viperBuiltin result
+
+" Constants
+syn keyword viperConstant write
+syn keyword viperConstant none
 
 " Functions
 syn match viperFunction "[a-zA-Z_][a-zA-Z0-9_\$]*" display contained
@@ -78,6 +81,7 @@ hi link viperTypes Type
 hi link viperNumber Number
 hi link viperRational Number
 hi link viperDecimal Float
+hi link viperConstant Constant
 hi link viperFunction Function
 hi link viperBuiltin Function
 hi link viperString String
