@@ -43,6 +43,7 @@ syn keyword viperTypes Int Bool Ref Rational Perm Seq Set Multiset
 
 " Builtins
 syn keyword viperBuiltin acc
+syn keyword viperBuiltin perm
 syn keyword viperBuiltin result
 
 " Constants
