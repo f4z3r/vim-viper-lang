@@ -18,6 +18,7 @@ syn keyword viperStatement package apply
 syn keyword viperStatement field
 syn keyword viperStatement method nextgroup=viperFunction skipwhite
 syn keyword viperStatement function nextgroup=viperFunction skipwhite
+syn keyword viperStatement define nextgroup=viperFunction skipwhite
 syn keyword viperStatement predicate nextgroup=viperFunction skipwhite
 syn keyword viperStatement domain nextgroup=viperFunction skipwhite
 syn keyword viperStatement axiom nextgroup=viperFunction skipwhite
