@@ -10,7 +10,6 @@ endif
 
 " Statement preffixes
 syn keyword viperStatement import
-syn keyword viperStatement invariant
 syn keyword viperStatement inhale exhale
 syn keyword viperStatement fold unfold
 syn keyword viperStatement assume assert
@@ -28,7 +27,10 @@ syn keyword viperKeyword var
 syn keyword viperKeyword forall
 syn keyword viperKeyword unfolding
 syn keyword viperKeyword returns
-syn keyword viperKeyword requires ensures
+
+" Contracts
+syn keyword viperContract requires ensures
+syn keyword viperContract invariant
 
 " Loops
 syn keyword viperRepeat while
@@ -42,9 +44,12 @@ syn keyword viperBoolean true false
 " Types
 syn keyword viperTypes Int Bool Ref Rational Perm Seq Set Multiset
 
+" Special functions
+syn keyword viperSpecFunc acc
+syn keyword viperSpecFunc perm
+syn keyword viperSpecFunc old
+
 " Builtins
-syn keyword viperBuiltin acc
-syn keyword viperBuiltin perm
 syn keyword viperBuiltin result
 
 " Constants
@@ -76,6 +81,7 @@ hi link viperStatement Statement
 hi link viperKeyword Keyword
 hi link viperConditional Conditional
 hi link viperRepeat Repeat
+hi link viperSpecFunc Label
 hi link viperOperator Operator
 hi link viperBoolean Boolean
 hi link viperComment Comment
@@ -87,3 +93,4 @@ hi link viperConstant Constant
 hi link viperFunction Function
 hi link viperBuiltin Function
 hi link viperString String
+hi link viperContract Define
