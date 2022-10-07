@@ -1,6 +1,6 @@
 *vim-viper-lang.txt*  Support for Viper in Vim
 
-Author:  Jakob Beckmann <beckmann_jakob@hotmail.fr>
+Author: f4z3r
 Last change: 13-07-2020
 
 License: MIT license
@@ -61,5 +61,5 @@ ABOUT                                     *viper-about*  *vim-viper-lang-about*
 
 Grab the latest version or report a bug on GitHub:
 
-https://github.com/jakobbeckmann/vim-viper-lang
+https://github.com/f4z3r/vim-viper-lang
 

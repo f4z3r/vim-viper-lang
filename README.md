@@ -12,7 +12,7 @@ language](https://www.pm.inf.ethz.ch/research/viper.html).
 Install using your plug-in manager. For instance, using `dein`:
 
 ```vim
-call dein#add('jakobbeckmann/vim-viper-lang', {'on_ft': 'viper'})
+call dein#add('f4z3r/vim-viper-lang', {'on_ft': 'viper'})
 ```
 
 ## Usage
